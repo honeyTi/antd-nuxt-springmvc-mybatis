@@ -191,11 +191,7 @@ export default {
           id:3,
           src:"http://design.zxxk.com/wp-content/uploads/2019/07/banner-3.jpg",
         }
-      ],
-      // canvas元素
-      canvas: null,
-      // 外层content
-      container: null
+      ]
     }
   },
   created(){
