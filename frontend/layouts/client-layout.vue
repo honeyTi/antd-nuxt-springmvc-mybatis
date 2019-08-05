@@ -170,6 +170,18 @@ export default {
       if (data.state === 0) {
         this.categoryList = data.list
         this.categoryListLength = data.list.length
+        console.log(this.categoryList)
+        console.log(this.categoryListLength)
+        this.categoryList[0].children.push({
+          children: [],
+          count: 27,
+          name: "设计导航",
+          parent: 1,
+          slug: "",
+          taxonomy: "category",
+          termGroup: 0,
+          termId: 9000
+        })
       }
     },
     scrollChangeLayout() {
